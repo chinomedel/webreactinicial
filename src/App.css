@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+/* CSS Personalizado */
+h1{
+  color: #282c34;
+}
+h2{
+  margin-bottom: 50px;
+  color: tomato;
+}
+select{
+  width: 60%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.clasificacion label {
+  color: grey;
+  font-size: 40px;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.clasificacion label:hover,
+.clasificacion label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+.muestraFoto img{
+  width: 90%;
+  height: 500px;
+}
+.texto{
+  position: absolute;
+  top:50px;
+  font-size: 30px;
+  padding: 20px;
+  color: azure;
+  background-color: rgba(0,0,0,0.6);
+}
